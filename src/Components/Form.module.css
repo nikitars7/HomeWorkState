@@ -1,0 +1,25 @@
+.Form{
+   display: flex;
+   margin-bottom: 20px;
+   align-items: center;
+   justify-content: space-evenly
+}
+.Input{
+   border: 1px solid black;
+   border-radius: 10px;
+   transition:all 0.3s ease 0s;
+   padding-left: 5px;
+}
+
+.Button{
+   background-color: #fff;
+   border: 1px solid re;
+   flex: 0 0 90px;
+   transition:all 0.3s ease 0s;
+   
+}
+.Button:hover{
+  background-color: black;
+  color:aliceblue;
+  border-radius: 10px;
+}
