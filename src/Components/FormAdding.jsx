@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import styles from './Form.module.css'
+import styles from "./Form.module.css";
 const FormAdding = ({ addTask }) => {
   const [taskName, setTaskName] = useState("");
   const formSubmit = (event) => {
@@ -14,14 +14,16 @@ const FormAdding = ({ addTask }) => {
   return (
     <div>
       <h1>TasksList</h1>
-      <form className={styles.Form}onSubmit={formSubmit}>
+      <form className={styles.Form} onSubmit={formSubmit}>
         <input
           className={styles.Input}
           type="text"
           value={taskName}
           onChange={(event) => setTaskName(event.target.value)}
         />
-        <button className={styles.Button}type="submit">Add</button>
+        <button className={styles.Button} type="submit">
+          Add
+        </button>
       </form>
     </div>
   );

@@ -1,20 +1,16 @@
-.Task{
-   display: flex;
-   align-items: baseline;
-   justify-content: space-evenly;
+.Task {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
 }
-.Title{
- 
+.Button {
+  background-color: #fff;
+  border: 1px solid re;
+  flex: 0 1 70px;
+  transition: all 0.3s ease 0s;
 }
-.Button{
-   background-color: #fff;
-   border: 1px solid re;
-   flex: 0 1 70px;
-   transition:all 0.3s ease 0s;
-   
-}
-.Button:hover{
+.Button:hover {
   background-color: black;
-  color:aliceblue;
+  color: aliceblue;
   border-radius: 10px;
 }
